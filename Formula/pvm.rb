@@ -1,13 +1,13 @@
 class Pvm < Formula
-  desc "A polyglot version manager for clojure, elixir, golang, node, php, ruby, and rust"
+  desc "Polyglot version manager for clojure, elixir, golang, node, php, ruby, and rust"
   homepage "https://github.com/rbf/pvm"
   url "https://github.com/rbf/pvm/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "aaf1d824fa9a7e8c717b88af4f0ab5db54b839357c272bfed0eb2e51dbcb9e20"
   license "MIT"
 
   def install
-    lib.install Dir["*"]
-    bin.install_symlink lib/name
+    share.install Dir["*"]
+    bin.install_symlink share/name
   end
 
   def caveats
