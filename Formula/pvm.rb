@@ -1,8 +1,8 @@
 class Pvm < Formula
   desc "Polyglot version manager for clojure, elixir, golang, node, php, ruby, and rust"
   homepage "https://github.com/rbf/pvm"
-  url "https://github.com/rbf/pvm/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "01c2432fffe3be394178b8fddc8944504f77a57ecaed2321f525ae2b78a82c30"
+  url "https://github.com/rbf/pvm/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "65bcf2d1b7d6f5eca6081fafbf6b01b17c3325feb279854884da37cc507998ab"
   license "MIT"
 
   def install
